@@ -1,0 +1,206 @@
+nav{
+    display: flexbox;
+    text-align: left;
+    color: black;
+}
+ /* Header */
+h1{
+    text-align: left;
+    font-size: 2.5rem;
+    font-family:Arial, Helvetica, sans-serif;    
+    margin: 3px;
+}
+
+h2{
+    margin: 5px;
+    text-align: left;
+    font-size: 2em;
+}
+
+h4{
+    text-align: left;
+    margin: 15px;
+}
+
+
+
+/* Body */
+.container{
+    background-color: darkgrey;
+    max-width: 600px;
+    height: 1220px;
+    margin: auto;
+}
+
+
+#nxtsec{
+    background-color: lightgrey;
+}
+
+
+i{
+    font-size: smaller;
+}
+
+
+em{
+    color: blue;
+    font-weight: bold;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+  
+li{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+ul li{
+    text-align: left;
+}
+
+ul a{
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+  
+li img{
+    float: right;
+    max-width: 30%;
+    border-radius: 50%;
+    position: relative;
+    top: 13px;
+    right: 0px;
+}
+
+img {
+    color: black;
+    cursor: pointer;
+}
+
+
+p{
+    font-size: smaller;
+    font-weight: bold;
+}
+
+
+.float{
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 0%; 
+    clear: both;   
+    color: black;
+    text-align: left;
+}
+
+/* Skills Bar */
+.float-container{
+    position:static;
+}
+
+
+.float-child {
+    width: 45%;
+    float: left;
+}  
+
+.rhs{
+    float: right;
+    width: 45%;
+}
+
+.skills {
+    text-align: right;
+    padding-bottom: 15px;
+    padding-top: 4px;
+    color: white;
+    font-size: 75%;
+    font-weight:500;
+  }
+
+  .content{
+    background-color: gainsboro;
+    border-radius: 50px;
+    display: flex;
+    position: static;  
+    height: 20px;
+    margin: 5px;
+}
+
+  .html {
+    width: 98%; 
+    background-color: rgb(10, 10, 177); 
+    border-radius: 60px;
+}
+
+  .css {
+    width: 95%; 
+    background-color: blue;
+    border-radius: 60px;
+
+}
+
+.php {
+    width: 90%; 
+    background-color: #2196F3;
+    border-radius: 60px;
+
+}
+
+.mysql{
+    width: 90%; 
+    background-color: #2196F3;
+    border-radius: 60px;
+}
+
+.python{
+    width: 80%; 
+    background-color: rgb(59, 59, 182);
+    border-radius: 60px;
+}
+
+  .js {
+    width: 55%; 
+    background-color: rgb(94, 94, 153);
+    border-radius: 60px;
+
+}
+
+.reactjs{
+    width: 45%; 
+    background-color: rgba(96, 96, 250, 0.719);
+    border-radius: 60px;
+}
+
+/* Footer */
+footer{
+    background-color: lightgrey;
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 0%; 
+    clear: both;  
+    font-weight: bold; 
+}
+
+hr{
+    height:5px ;
+    background-color: lightgray;
+    max-width: 100%;
+}
